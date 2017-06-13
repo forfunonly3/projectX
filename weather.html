@@ -1,0 +1,15 @@
+<h2 class="text-center">Forecast</h2>
+<div id="openweathermap-widget-15"></div>
+<script>
+  window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
+  window.myWidgetParam.push({
+	  id: 15,cityid: '2934246',
+	  appid: 'dfc50f2b3d10f673ff440e99f1fa267d',
+	  units: 'metric',
+	  containerid: 'openweathermap-widget-15',  });
+	  (function() {
+		  var script = document.createElement('script');
+		  script.async = true;
+		  script.src = "https://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generatorr.js";
+		  var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();
+</script>
